@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+#container {
+    margin-top: 20px;
+    position: relative;
+    width: 800;
+    height: 600;
+    border: 5px solid black;
+    background-color: aqua;
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#rule {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Brick, .Stick, .Ball {
+    position: absolute;
+}
+
+.Brick {
+    width: 100px;
+    height: 30px;
+}
+
+.Ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.Stick {
+    width: 150px;
+    height: 30px;
+}
